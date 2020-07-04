@@ -1,5 +1,6 @@
 import Router from 'next/router';
 import { IoMdArrowBack } from 'react-icons/io';
+import { AiOutlineHeart } from 'react-icons/ai';
 
 import { Container } from './styles';
 
@@ -10,6 +11,21 @@ function ShowProduct({ product }) {
         <IoMdArrowBack />
         Go Back
       </a>
+      <main>
+        <img src={product.image} alt={product.name} />
+
+        <section>
+          <h1>{product.name}</h1>
+          <span>{product.price}</span>
+          <p dangerouslySetInnerHTML={{ __html: product.description }} />
+          <div>
+            <button>
+              <AiOutlineHeart size={26} />
+            </button>
+            <button>Add to cart</button>
+          </div>
+        </section>
+      </main>
     </Container>
   );
 }
