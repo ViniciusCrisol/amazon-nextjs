@@ -1,0 +1,113 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Notebook Lenovo Ideapad S145",
+      "price": 42190,
+      "stars": 5,
+      "type": ["computers", "technologies"],
+      "tags": ["cheep"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51HHO8vZD-L._AC_SL1000_.jpg",
+      "description": "AMD Ryzen 3 3200U Dual Core Processor (Up to 3.5GHz); 4GB DDR4 Memory; 128GB PCIe NVMe SSD <br /> 15.6 inches Full HD (1920 x 1080) Widescreen LED backlit IPS Display; AMD Radeon Vega 3 Mobile Graphics <br /> 1 USB 3.1 Gen 1 Port, 2 USB 2.0 Ports & 1 HDMI Port with HDCP support <br /> 802.11ac Wi-Fi; Backlit Keyboard; Up to 7.5 Hours Battery Life <br /> Windows 10 in S mode. Maximum Power Supply Wattage 65 W <br />"
+    },
+    {
+      "id": 2,
+      "name": "AMD Ryzen 7 3700X 8-Core, 16-Thread Unlocked Desktop Processor with Wraith Prism LED Cooler",
+      "price": 26096,
+      "stars": 5,
+      "type": ["computers"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/717Di3DGIbL._AC_SL1092_.jpg",
+      "description": "AMD Ryzen 7 3700X 8 core, 16 thread unlocked desktop processor with Wraith Prism LED cooler. Base Clock - 3.6GHz.Default TDP / TDP :65W."
+    },
+    {
+      "id": 3,
+      "name": "Fjallraven - Kanken Classic Backpack for Everyday",
+      "price": 7995,
+      "stars": 5,
+      "type": ["top-sellers", "accessories"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/81cywYam7jL._AC_SL1500_.jpg",
+      "description": "Vinylon F: 100% vinylal <br /> 100% Polyvinyl-alcohol lining <br /> Zipper closure <br /> 12' shoulder drop <br /> 15' high <br /> 11' wide <br /> ICONIC: Same classic Kanken design since 1978. Stash everyday essentials in the main zippered compartment, front zippered pocket, and two open side pockets."
+    },
+    {
+      "id": 4,
+      "name": "LEGO DUPLO Big Construction Site",
+      "price": 3799,
+      "stars": 5,
+      "type": ["toys", "top-sellers"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/811sHzK0hKL._AC_SX522_.jpg"
+    },
+    {
+      "id": 5,
+      "name": "The Last of Us Part II - PlayStation 4",
+      "price": 5000,
+      "stars": 5,
+      "type": ["videogames"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/71p8G%2BYeA6L._SL1500_.jpg",
+      "description": "Five years after their dangerous journey across the post-pandemic United States, Ellie and Joel have settled down in Jackson, Wyoming. Living amongst a thriving community of survivors has allowed them peace and stability, despite the constant threat of the infected and other, more desperate survivors. When a violent event disrupts thatpeace, Ellie embarks on a relentless journey to carry out justice and find closure. As she hunts those responsible one by one, she is confronted with the devastating physical and emotional repercussions of her actions."
+    },
+    {
+      "id": 6,
+      "name": "League of Legends $25 Gift Card - NA Server Only [Online Game Code]",
+      "price": 2500,
+      "stars": 5,
+      "type": ["videogames"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/61FxhXzjDeL._SL1500_.jpg",
+      "description": "Visit us at prepaidcards.riotgames.com for redemption instructions and additional support"
+    },
+    {
+      "id": 7,
+      "name": "Nintendo Switch with Neon Blue and Neon Red Joy‑Con - HAC-001(-01)",
+      "price": 43798,
+      "stars": 5,
+      "type": ["videogames"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/71lfEWM9AYL._AC_SL1500_.jpg",
+      "description": "Handheld Nintendo Switch gaming <br /> Optimized for personal, handheld play; Nintendo Switch Lite is a small and light Nintendo Switch system <br /> Features a sleek, unibody design with fully integrated controls and a built in plus Control Pad <br /> Compatible with all physical and digital Nintendo Switch games that support Handheld mode <br />"
+    },
+    {
+      "id": 8,
+      "name": "Nintendo Entertainment System: NES Classic Edition",
+      "price": 970,
+      "stars": 5,
+      "type": ["videogames"],
+      "image": "https://m.media-amazon.com/images/I/81s7B+Als-L._AC_UY218_ML3_.jpg",
+      "description": "The Nintendo Entertainment System: NES Classic Edition has the original look and feel, only smaller, sleeker, and pre loaded with 30 games <br /> The pre installed games include: Super Mario Bros., Donkey Kong, The Legend of Zelda, PAC MAN, Dr. Mario, Mega Man, Final Fantasy, and dozens more <br /> Includes a standard HDMI cable <br /> Comes with one old school, grey colored NES Classic Controller and an AC adapter <br /> Also compatible with Classic Controller and Classic Controller Pro. Additional NES Classic Controllers will be sold separately <br />"
+    },
+    {
+      "id": 9,
+      "name": "Innovative Technology VSC-550BT-TQ Victrola Vintage",
+      "price": 3996,
+      "stars": 5,
+      "type": ["top-sellers", "accessories"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/61FSnPYsXzL._AC_SY200_.jpg",
+      "description": "Three-speed turntable (33 1/3, 45, 78 RPM) plays all of your vinyl records and favorite albums. <br /> Built-in Bluetooth to wirelessly play music from your Bluetooth enabled device. No cords needed. <br /> Portable suitcase design with easy carry handle. <br /> 3.5mm Aux-in for playing music from any non-Bluetooth device, RCA output and headphone jack. <br /> Built-in stereo speakers.No battery used.Power,on,off,volume control knob.Auto or manual stop selection switch. <br />"
+    },
+    {
+      "id": 10,
+      "name": "Zebrinha de Atividades, Fisher Price, Mattel",
+      "price": 1999,
+      "stars": 5,
+      "type": ["top-sellers", "accessories"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/61u1-GwT8GL._AC_SL1024_.jpg",
+      "description": "A Zebrinha de atividades Fisher Price Mattel é fácil de encaixar na bandeja do bebê, com base de ventosa. Listras contrastantes e barra de mordedor na zebra. Esfera com contas, borboleta pendurada e aros que mantêm o bebê ocupado."
+    },
+    {
+      "id": 11,
+      "name": "iPhone XR Apple Black",
+      "price": 31392,
+      "stars": 5,
+      "type": ["computers", "technologies"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/41piKUNcAVL._AC_SY200_.jpg",
+      "description": "Carrier - This phone is locked to simple Mobile from Tracfone, which means this device can only be used on the Simple Mobile wireless network. <br /> Plans - simple Mobile offers a variety of coverage plans, including 30-day unlimited Talk, text & data. No Activation Fees, No Credit Checks, and no Hassles On a Nationwide Lightning-fast Network. For more information or plan options, please visit the Simple Mobile website. <br /> Activation - You’ll receive a simple Mobile SIM kit with this iPhone. Follow the instructions to get service activated with the simple Mobile plan of your choice. 5-inch Super Retina XDR OLED display <br /> Water and dust resistant (4 meters for up to 30 minutes, IP68) <br /> Triple-camera system with 12MP Ultra wide, wide, and telephoto cameras; night mode, Portrait mode, and 4K video up to 60fps <br /> 12MP True Depth front Camera with Portrait mode, 4K video, and slo-mo"
+    },
+    {
+      "id": 12,
+      "name": "Xiaomi Amazfit Bip A1608 Original Band",
+      "price": 34399,
+      "stars": 5,
+      "type": ["computers", "technologies"],
+      "tags": ["cheep"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51HfwLe-TQL._AC_SX679_.jpg",
+      "description": "The Amazfit Bip smartwatch comes with 30-day long battery life on a single charge of 2.5-hours. <br /> Optical heart rate monitoring and built-in GPS to track daily step count, distance traveled, calories burned, and sleep quality. <br /> 4-sport modes - outdoor running, treadmill, cycling and walking with detailed insights into most frequent activities. <br /> Get notifications for emails, SMS messages, and incoming phone calls as well as alerts for Facebook, Twitter, weather forecasts, etc. <br /> This smartwatch comes in 4 colors and a bright always-on 1.28” display and is compatible with both Google Android and Apple iOS. <br />"
+    }
+  ]
+}

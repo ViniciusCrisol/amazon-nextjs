@@ -13,7 +13,7 @@ export default createGlobalStyle`
   outline: 0;
 }
 
-html, body , #root{
+html,body,#root{
   min-height: 100%;
   width: 100%;
 }
@@ -23,22 +23,23 @@ body{
   -webkit-font-smoothing: antialiased !important;
 }
 
-body,input, button{
+body,input,button,a{
   font-size: 16px;
-  color: var(--text);
+  color: var(--secondary);
   font-family: --apple-system, sans-serif;
 }
 
 a{
   text-decoration: none;
-  color: var(--text)
+  cursor: pointer;
 }
 
 :root{
 --background: #fff;
 --primary: #F99924;
 --secondary: #222F3E;
---text: #222F3E;
+--blue: #3484D8;
 --light-gray: #F5F5F5;
+--dark-gray: #C4C4C4;
 }
 `;
