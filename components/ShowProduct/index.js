@@ -4,7 +4,11 @@ import { AiOutlineHeart } from 'react-icons/ai';
 
 import { Container } from './styles';
 
+import { useCart } from '../../Hooks/CartContext';
+
 function ShowProduct({ product }) {
+  const { addToCart } = useCart();
+
   var formatter = new Intl.NumberFormat('en-US', {
     style: 'currency',
     currency: 'USD',
@@ -27,7 +31,7 @@ function ShowProduct({ product }) {
             <button>
               <AiOutlineHeart size={26} />
             </button>
-            <button>Add to cart</button>
+            <button onClick={() => addToCart({ product })}>Add to cart</button>
           </div>
         </section>
       </main>

@@ -1,34 +1,35 @@
 import Link from 'next/link';
+
 import {
   AiOutlineShoppingCart,
   AiOutlineHeart,
   AiFillAmazonCircle,
 } from 'react-icons/ai';
 
-import { Container, Content } from './styles';
+import { Container } from './styles';
+
+import { useCart } from '../../Hooks/CartContext';
 
 function Header() {
+  const { products } = useCart();
+
+  console.log(products);
+
   return (
     <Container>
-      <Content>
-        <Link href='/'>
-          <AiFillAmazonCircle size={40} color='var(--primary)' />
-        </Link>
+      <div>
+        <AiFillAmazonCircle size={40} color='var(--primary)' />
         <section>
-          <Link href='/'>
-            <a>
-              <span>0</span>
-              <AiOutlineHeart size={30} color='var(--dark-gray)' />
-            </a>
-          </Link>
-          <Link href='/'>
-            <a>
-              <span>0</span>
-              <AiOutlineShoppingCart size={30} color='var(--dark-gray)' />
-            </a>
-          </Link>
+          <a>
+            <span>0</span>
+            <AiOutlineHeart size={30} color='var(--dark-gray)' />
+          </a>
+          <a>
+            <span>{products.length}</span>
+            <AiOutlineShoppingCart size={30} color='var(--dark-gray)' />
+          </a>
         </section>
-      </Content>
+      </div>
     </Container>
   );
 }
