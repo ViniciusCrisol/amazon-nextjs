@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "Notebook Lenovo Ideapad S145",
-      "price": 42190,
+      "price": 421,
       "stars": 5,
       "type": ["computers", "technologies"],
       "tags": ["cheep"],
@@ -13,7 +13,7 @@
     {
       "id": 2,
       "name": "Fjallraven - Kanken Classic Backpack for Everyday",
-      "price": 7995,
+      "price": 79,
       "stars": 5,
       "type": ["top-sellers", "accessories"],
       "image": "https://images-na.ssl-images-amazon.com/images/I/81cywYam7jL._AC_SL1500_.jpg",
@@ -22,7 +22,7 @@
     {
       "id": 3,
       "name": "LEGO DUPLO Big Construction Site",
-      "price": 3799,
+      "price": 37,
       "stars": 5,
       "type": ["toys", "top-sellers"],
       "image": "https://images-na.ssl-images-amazon.com/images/I/811sHzK0hKL._AC_SX522_.jpg"
@@ -30,7 +30,7 @@
     {
       "id": 4,
       "name": "The Last of Us Part II - PlayStation 4",
-      "price": 5000,
+      "price": 500,
       "stars": 5,
       "type": ["videogames"],
       "image": "https://images-na.ssl-images-amazon.com/images/I/71p8G%2BYeA6L._SL1500_.jpg",
@@ -39,7 +39,7 @@
     {
       "id": 5,
       "name": "Nintendo Entertainment System: NES Classic Edition",
-      "price": 970,
+      "price": 97,
       "stars": 5,
       "type": ["videogames"],
       "image": "https://m.media-amazon.com/images/I/81s7B+Als-L._AC_UY218_ML3_.jpg",
@@ -48,7 +48,7 @@
     {
       "id": 6,
       "name": "Innovative Technology VSC-550BT-TQ Victrola Vintage",
-      "price": 3996,
+      "price": 39,
       "stars": 5,
       "type": ["top-sellers", "accessories"],
       "image": "https://images-na.ssl-images-amazon.com/images/I/61FSnPYsXzL._AC_SY200_.jpg",
@@ -57,7 +57,7 @@
     {
       "id": 7,
       "name": "Zebrinha de Atividades, Fisher Price, Mattel",
-      "price": 1999,
+      "price": 19,
       "stars": 5,
       "type": ["top-sellers", "accessories"],
       "image": "https://images-na.ssl-images-amazon.com/images/I/61u1-GwT8GL._AC_SL1024_.jpg",
@@ -66,7 +66,7 @@
     {
       "id": 8,
       "name": "iPhone XR Apple Black",
-      "price": 31392,
+      "price": 313,
       "stars": 5,
       "type": ["computers", "technologies"],
       "image": "https://images-na.ssl-images-amazon.com/images/I/41piKUNcAVL._AC_SY200_.jpg",
@@ -75,7 +75,7 @@
     {
       "id": 9,
       "name": "Xiaomi Amazfit Bip A1608 Original Band",
-      "price": 34399,
+      "price": 343,
       "stars": 5,
       "type": ["computers", "technologies"],
       "tags": ["cheep"],

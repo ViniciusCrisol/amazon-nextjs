@@ -5,6 +5,11 @@ import { AiOutlineHeart } from 'react-icons/ai';
 import { Container } from './styles';
 
 function ShowProduct({ product }) {
+  var formatter = new Intl.NumberFormat('en-US', {
+    style: 'currency',
+    currency: 'USD',
+  });
+
   return (
     <Container>
       <a onClick={() => Router.back()}>
@@ -16,7 +21,7 @@ function ShowProduct({ product }) {
 
         <section>
           <h1>{product.name}</h1>
-          <span>{product.price}</span>
+          <span>{formatter.format(product.price)}</span>
           <p dangerouslySetInnerHTML={{ __html: product.description }} />
           <div>
             <button>

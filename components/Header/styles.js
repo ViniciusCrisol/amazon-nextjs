@@ -21,9 +21,42 @@ export const Content = styled.div`
     cursor: pointer;
   }
 
-  section {
-    svg + svg {
-      margin-left: 10px;
+  a {
+    position: relative;
+
+    span {
+      position: absolute;
+      right: -8px;
+      top: -18px;
+
+      z-index: 2;
+
+      width: 18px;
+      height: 18px;
+
+      border-radius: 50%;
+      background-color: var(--primary);
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      color: white;
+      line-height: 1;
+    }
+
+    svg {
+      transition: 200ms;
+    }
+
+    &:hover {
+      svg {
+        transform: scale(1.1);
+      }
+    }
+
+    & + a {
+      margin-left: 15px;
     }
   }
 `;

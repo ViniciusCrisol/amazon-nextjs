@@ -15,8 +15,18 @@ function Header() {
           <AiFillAmazonCircle size={40} color='var(--primary)' />
         </Link>
         <section>
-          <AiOutlineHeart size={30} color='var(--dark-gray)' />
-          <AiOutlineShoppingCart size={30} color='var(--dark-gray)' />
+          <Link href='/'>
+            <a>
+              <span>0</span>
+              <AiOutlineHeart size={30} color='var(--dark-gray)' />
+            </a>
+          </Link>
+          <Link href='/'>
+            <a>
+              <span>0</span>
+              <AiOutlineShoppingCart size={30} color='var(--dark-gray)' />
+            </a>
+          </Link>
         </section>
       </Content>
     </Container>
