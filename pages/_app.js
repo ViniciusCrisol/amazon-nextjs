@@ -3,20 +3,20 @@ import Head from 'next/head';
 
 import Global from '../styles/global';
 
-import { CartProvider } from '../Hooks/CartContext';
+import AppProvider from '../Hooks/index';
 
 class MyApp extends App {
   render() {
     const { Component, pageProps } = this.props;
 
     return (
-      <CartProvider>
+      <AppProvider>
         <Head>
           <title>Amazon</title>
         </Head>
         <Global />
         <Component {...pageProps} />
-      </CartProvider>
+      </AppProvider>
     );
   }
 }

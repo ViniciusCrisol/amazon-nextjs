@@ -3,22 +3,14 @@ import React, { createContext, useCallback, useState, useContext } from 'react';
 const CartContext = createContext([]);
 
 function CartProvider({ children }) {
-  const [data, setData] = useState([]);
+  const [cart, setCart] = useState([]);
 
-  const addToCart = useCallback(async ({ product }) => {
-    // Não funcional
-
-    const productExists = await data.find(
-      (cartProduct) => cartProduct.id === product.id
-    );
-
-    if (product && !productExists) {
-      setData((oldCart) => [...oldCart, product]);
-    }
+  const addToCart = useCallback(({ product }) => {
+    setCart((oldCart) => [...oldCart, product]);
   }, []);
 
   return (
-    <CartContext.Provider value={{ products: data, addToCart }}>
+    <CartContext.Provider value={{ cart, addToCart }}>
       {children}
     </CartContext.Provider>
   );

@@ -9,23 +9,25 @@ import {
 import { Container } from './styles';
 
 import { useCart } from '../../Hooks/CartContext';
+import { useFavorites } from '../../Hooks/FavoritesContext';
 
 function Header() {
-  const { products } = useCart();
-
-  console.log(products);
+  const { cart } = useCart();
+  const { favorites } = useFavorites();
 
   return (
     <Container>
       <div>
-        <AiFillAmazonCircle size={40} color='var(--primary)' />
+        <Link href='/'>
+          <AiFillAmazonCircle size={40} color='var(--primary)' />
+        </Link>
         <section>
           <a>
-            <span>0</span>
+            <span>{favorites.length}</span>
             <AiOutlineHeart size={30} color='var(--dark-gray)' />
           </a>
           <a>
-            <span>{products.length}</span>
+            <span>{cart.length}</span>
             <AiOutlineShoppingCart size={30} color='var(--dark-gray)' />
           </a>
         </section>

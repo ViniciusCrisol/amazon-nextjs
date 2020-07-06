@@ -5,14 +5,39 @@ import { AiOutlineHeart } from 'react-icons/ai';
 import { Container } from './styles';
 
 import { useCart } from '../../Hooks/CartContext';
+import { useFavorites } from '../../Hooks/FavoritesContext';
 
 function ShowProduct({ product }) {
-  const { addToCart } = useCart();
+  const { addToCart, cart } = useCart();
+  const { addToFavorites, favorites } = useFavorites();
+
+  console.log(cart);
+  console.log(favorites);
 
   var formatter = new Intl.NumberFormat('en-US', {
     style: 'currency',
     currency: 'USD',
   });
+
+  function handleAddCart() {
+    const productExists = cart.find(
+      (cartProduct) => cartProduct.id === product.id
+    );
+
+    if (!productExists) {
+      addToCart({ product });
+    }
+  }
+
+  function handleAddFavorites() {
+    const productExists = favorites.find(
+      (cartProduct) => cartProduct.id === product.id
+    );
+
+    if (!productExists) {
+      addToFavorites({ product });
+    }
+  }
 
   return (
     <Container>
@@ -28,10 +53,10 @@ function ShowProduct({ product }) {
           <span>{formatter.format(product.price)}</span>
           <p dangerouslySetInnerHTML={{ __html: product.description }} />
           <div>
-            <button>
+            <button onClick={handleAddFavorites}>
               <AiOutlineHeart size={26} />
             </button>
-            <button onClick={() => addToCart({ product })}>Add to cart</button>
+            <button onClick={handleAddCart}>Add to cart</button>
           </div>
         </section>
       </main>

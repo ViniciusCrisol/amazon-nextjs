@@ -60,6 +60,7 @@ export const Container = styled.div`
           font-weight: bold;
 
           transition: 200ms;
+          cursor: pointer;
 
           & + button {
             margin-left: 15px;
