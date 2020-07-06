@@ -3,8 +3,8 @@
 > A store that uses nextJs.
 
 [![Author](https://img.shields.io/badge/author-ViniciusCrisol-e0a639?style=flat-square)](https://github.com/ViniciusCrisol)
-[![Languages](https://img.shields.io/github/languages/count/ViniciusCrisol/clone-facebook?color=e0a639&style=flat-square)](#)
-[![Stars](https://img.shields.io/github/stars/ViniciusCrisol/clone-facebook?color=e0a639&style=flat-square)](https://github.com/ViniciusCrisol/clone-facebook/stargazers)
+[![Languages](https://img.shields.io/github/languages/count/ViniciusCrisol/amazon-nextjs?color=e0a639&style=flat-square)](#)
+[![Stars](https://img.shields.io/github/stars/ViniciusCrisol/amazon-nextjs?color=e0a639&style=flat-square)](https://github.com/ViniciusCrisol/amazon-nextjs/stargazers)
 
 <br />
 <p align="center"><img src="https://i.ibb.co/D88JtBG/ezgif-com-video-to-gif.gif"/></p>
