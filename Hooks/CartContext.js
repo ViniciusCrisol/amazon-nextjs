@@ -5,12 +5,31 @@ const CartContext = createContext([]);
 function CartProvider({ children }) {
   const [cart, setCart] = useState([]);
 
-  const addToCart = useCallback(({ product }) => {
-    setCart((oldCart) => [...oldCart, product]);
-  }, []);
+  let value = 0;
+
+  for (let product in cart) {
+    value += cart[product].price;
+  }
+
+  const addToCart = ({ product }) => {
+    const productExists = cart.find(
+      (cartProduct) => cartProduct.id === product.id
+    );
+
+    if (!productExists) {
+      setCart([...cart, product]);
+    }
+  };
+
+  const removeFromCart = ({ id }) => {
+    const filteredProducts = cart.filter((product) => product.id !== id);
+    console.log(filteredProducts);
+
+    setCart(filteredProducts);
+  };
 
   return (
-    <CartContext.Provider value={{ cart, addToCart }}>
+    <CartContext.Provider value={{ cart, addToCart, removeFromCart, value }}>
       {children}
     </CartContext.Provider>
   );

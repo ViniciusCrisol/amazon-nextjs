@@ -19,17 +19,23 @@ function Header() {
     <Container>
       <div>
         <Link href='/'>
-          <AiFillAmazonCircle size={40} color='var(--primary)' />
+          <a>
+            <AiFillAmazonCircle size={40} color='var(--primary)' />
+          </a>
         </Link>
         <section>
-          <a>
-            <span>{favorites.length}</span>
-            <AiOutlineHeart size={30} color='var(--dark-gray)' />
-          </a>
-          <a>
-            <span>{cart.length}</span>
-            <AiOutlineShoppingCart size={30} color='var(--dark-gray)' />
-          </a>
+          <Link href='/favorites'>
+            <a>
+              <span>{favorites.length}</span>
+              <AiOutlineHeart size={30} color='var(--dark-gray)' />
+            </a>
+          </Link>
+          <Link href='/cart'>
+            <a>
+              <span>{cart.length}</span>
+              <AiOutlineShoppingCart size={30} color='var(--dark-gray)' />
+            </a>
+          </Link>
         </section>
       </div>
     </Container>

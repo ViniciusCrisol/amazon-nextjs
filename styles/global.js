@@ -34,11 +34,14 @@ a{
   cursor: pointer;
 }
 
+button{
+  cursor: pointer;
+}
+
 :root{
 --background: #fff;
 --primary: #F99924;
 --secondary: #222F3E;
---blue: #3484D8;
 --light-gray: #F5F5F5;
 --dark-gray: #C4C4C4;
 }
