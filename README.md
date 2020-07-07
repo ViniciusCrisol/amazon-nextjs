@@ -1,4 +1,4 @@
-# Amazon nextJs
+# 🛒  Amazon NextJs
 
 > A store that uses nextJs.
 
